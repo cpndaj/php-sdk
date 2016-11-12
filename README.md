@@ -30,9 +30,14 @@ Or install it yourself as:
 ### Initialise the library with your store api key and your framework 's SessionIdAccessor:
 
 `TradenityClient::$key = 'sk_1234567'`
-`TradenityClient::$sessionIdAccessor = ....` // framework dependent (check documentation)
 
-### Invoke the required method, for example to get a list of all the categories for that store:
+Add the framework dependent `SessionIdAccessor` (check documentation for details):
+
+`TradenityClient::$sessionIdAccessor = ....`
+
+### Use in your code
+
+Invoke the required method on a specific entity, for example to get a list of all the categories for that store:
 
 `Category->find_all()`
 
