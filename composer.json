@@ -1,6 +1,6 @@
 {
   "name": "tradenity/php-sdk",
-  "version":"1.0.0",
+  "version":"1.0.1",
   "description": "PHP interface to the Tradenity REST API, The easiest eCommerce API for web and mobile development.",
   "keywords": [
     "php",
@@ -20,7 +20,7 @@
     "issues": "http://github.com/tradenity/php-sdk/issues",
     "source": "http://github.com/tradenity/php-sdk"
   },
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
   "require": {
     "php": ">=5.5",
     "ext-curl": "*",

@@ -19,7 +19,7 @@ Add this line to your application's `composer.json` file:
 
 ```json
 require:{
- 'tradenity/php-sdk': "1.0.0"
+ 'tradenity/php-sdk': "1.0.1"
  }
 ```
 
