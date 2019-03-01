@@ -1,6 +1,7 @@
 {
   "name": "tradenity/php-sdk",
   "version":"1.0.1",
+  "license": "Apache-2.0",
   "description": "PHP interface to the Tradenity REST API, The easiest eCommerce API for web and mobile development.",
   "keywords": [
     "php",
